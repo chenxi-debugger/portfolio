@@ -28,7 +28,7 @@ export default function LeftSidebar() {
       <div className="absolute top-4 right-4 block xl:hidden">
         <Link
           href="/contact"
-          className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-cyan-400 rounded-lg shadow hover:bg-cyan-600 hover:text-white text-lg"
+          className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-cyan-400 rounded-lg shadow hover:bg-cyan-600 hover:text-white text-base"
         >
           <FaPaperPlane />
           Show Contacts
