@@ -35,7 +35,7 @@ export default function LeftSidebar() {
         </Link>
       </div>
 
-      <div className="flex justify-center pt-4 mb-10">
+      <div className="flex justify-center pt-4 mt-8 mb-10">
         <Image
           src={avatar}
           alt="Avatar"

@@ -578,6 +578,9 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -610,6 +613,15 @@ video {
 }
 .h-auto {
   height: auto;
+}
+.h-\[0px\] {
+  height: 0px;
+}
+.h-\[800px\] {
+  height: 800px;
+}
+.h-\[780px\] {
+  height: 780px;
 }
 .min-h-screen {
   min-height: 100vh;

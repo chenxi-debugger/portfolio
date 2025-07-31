@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           <Navbar />
 
           {/* 页面主体结构：大屏侧边栏，小屏上方块 */}
-          <div className="pt-24 h-[720px] flex flex-col xl:flex-row gap-6">
+          <div className="pt-24 h-[780px] flex flex-col xl:flex-row gap-6">
             {/* LeftSidebar：在大屏显示在左边，小屏显示在上方（组件内部处理） */}
             <LeftSidebar />
 
