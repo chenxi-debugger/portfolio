@@ -10,36 +10,36 @@ const projects = [
     title: 'Weatherstack',
     category: 'Web development',
     image: '/portfolio/weatherstack.png',
-    projectLink: 'https://bootcamp-project1-weatherstack.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/bootcamp-project1'
+    projectLink: 'https://weatherstackwebsite.vercel.app/',
+    githubLink: 'https://github.com/chenxi-debugger/weatherstack'
   },
   {
     title: 'Covilla',
     category: 'Web development',
     image: '/portfolio/covilla.png',
-    projectLink: 'https://bootcamp-project2-covilla-webflow.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/Bootcamp-Second-Project'
+    projectLink: 'https://covilla-webflow.vercel.app/',
+    githubLink: 'https://github.com/chenxi-debugger/covilla'
   },
   {
     title: 'salinaka-ecommerce',
     category: 'Web design',
     image: '/portfolio/salinaka.png',
-    projectLink: 'https://bootcamp-project3-salinaka-ecommerc.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/Bootcamp-Project3-salinaka-ecommerce-react'
+    projectLink: 'https://salinaka-ecommerc.vercel.app/',
+    githubLink: 'https://github.com/chenxi-debugger/salinaka-ecommerce'
   },
   {
     title: 'Data Analysis',
     category: 'Applications',
     image: '/portfolio/analytics.png',
     projectLink: 'https://analytics-dashboard-fullstack.onrender.com/',
-    githubLink: 'https://github.com/chenxi-debugger/analytics_dashboard_fullstack'
+    githubLink: 'https://github.com/chenxi-debugger/analytics_dashboard'
   },
   {
     title: 'Portfolio',
     category: 'Web design',
     image: '/portfolio/portfolio.png',
-    projectLink: 'https://portfolio-nine-ruddy-27.vercel.app/',
-    githubLink: 'https://github.com/yourname/portfolio'
+    projectLink: 'https://portfolio-chenxi.vercel.app/about',
+    githubLink: 'https://github.com/chenxi-debugger/portfolio'
   },
 ]
 
