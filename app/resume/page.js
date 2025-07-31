@@ -73,7 +73,7 @@ export default function ResumePage() {
           <ul className="relative border-l-2 border-gray-700 pl-6 space-y-10">
             {education.map((item, idx) => (
               <li key={idx} className="relative">
-                <span className="absolute w-3 h-3 bg-cyan-400 rounded-full -left-[23px] top-1.5"></span>
+                <span className="absolute w-3 h-3 bg-cyan-400 rounded-full -left-[31px] top-1.5"></span>
                 <h3 className="font-semibold">{item.title}</h3>
                 <p className="text-sm text-cyan-400 mb-1">{item.years}</p>
                 <p className="text-gray-300 text-sm">{item.description}</p>
@@ -93,7 +93,7 @@ export default function ResumePage() {
           <ul className="relative border-l-2 border-gray-700 pl-6 space-y-10">
             {experience.map((item, idx) => (
               <li key={idx} className="relative">
-                <span className="absolute w-3 h-3 bg-cyan-400 rounded-full -left-[23px] top-1.5"></span>
+                <span className="absolute w-3 h-3 bg-cyan-400 rounded-full -left-[31px] top-1.5"></span>
                 <h3 className="font-semibold">{item.title}</h3>
                 <p className="text-sm text-cyan-400 mb-1">{item.years}</p>
                 <p className="text-gray-300 text-sm">{item.description}</p>
