@@ -85,13 +85,14 @@ export default function PortfolioPage() {
               rel="noopener noreferrer"
               className="block rounded-xl overflow-hidden shadow-lg"
             >
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={400}
-                height={0} // 让高度自适应
-                className="w-full h-auto object-contain"
-              />
+              <div className="relative w-full h-44 "> {/* 你可以指定高度 */}
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </a>
 
             {/* 标题点击跳转 GitHub */}
