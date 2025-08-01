@@ -17,7 +17,7 @@ const projects = [
     title: 'Covilla',
     category: 'Web development',
     image: '/portfolio/covilla.png',
-    projectLink: 'https://covilla-webflow.vercel.app/',
+    projectLink: 'https://covilla-website.vercel.app/',
     githubLink: 'https://github.com/chenxi-debugger/covilla'
   },
   {
