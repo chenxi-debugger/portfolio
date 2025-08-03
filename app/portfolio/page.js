@@ -3,43 +3,56 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
-const filters = ['All', 'Web design', 'Applications', 'Web development']
+const filters = ['All', 'Web development', 'AI & ML', 'App development']
 
 const projects = [
   {
     title: 'Weatherstack',
-    category: 'Web development',
+    category: ['Web development'],
     image: '/portfolio/weatherstack.png',
     projectLink: 'https://weatherstackwebsite.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/weatherstack'
+    githubLink: 'https://github.com/chenxi-debugger/weatherstack',
+    techStack: ['JavaScript', 'CSS', 'HTML']
+  },
+  {
+    title: 'Chatbot-mobile',
+    category: ['App development', 'AI & ML'],
+    image: '/portfolio/chatbot.png',
+    projectLink: 'https://chatbot-mobile-sigma.vercel.app/',
+    githubLink: 'https://github.com/chenxi-debugger/chatbot-mobile',
+    techStack: ['React Native', 'Expo', 'OpenAI', 'Zustand']
   },
   {
     title: 'Covilla',
-    category: 'Web development',
+    category: ['Web development'],
     image: '/portfolio/covilla.png',
     projectLink: 'https://covilla-website.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/covilla'
+    githubLink: 'https://github.com/chenxi-debugger/covilla',
+    techStack: ['JavaScript', 'CSS', 'HTML']
   },
   {
     title: 'salinaka-ecommerce',
-    category: 'Web design',
+    category: ['Web development'],
     image: '/portfolio/salinaka.png',
     projectLink: 'https://salinaka-ecommerc.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/salinaka-ecommerce'
+    githubLink: 'https://github.com/chenxi-debugger/salinaka-ecommerce',
+    techStack: ['React', 'Redux', 'LocalStorage']
   },
   {
     title: 'Data Analysis',
-    category: 'Applications',
+    category: ['Web development'],
     image: '/portfolio/analytics.png',
     projectLink: 'https://analytics-dashboard-fullstack.onrender.com/',
-    githubLink: 'https://github.com/chenxi-debugger/analytics_dashboard'
+    githubLink: 'https://github.com/chenxi-debugger/analytics_dashboard',
+    techStack: ['React', 'Node.js', 'MongoDB', 'Vite','Material UI']
   },
   {
     title: 'Portfolio',
-    category: 'Web design',
+    category: ['Web development'],
     image: '/portfolio/portfolio.png',
     projectLink: 'https://portfolio-chenxi.vercel.app/about',
-    githubLink: 'https://github.com/chenxi-debugger/portfolio'
+    githubLink: 'https://github.com/chenxi-debugger/portfolio',
+    techStack: ['Next.js', 'Tailwind']
   },
 ]
 
@@ -49,7 +62,7 @@ export default function PortfolioPage() {
   const filteredProjects =
     activeFilter === 'All'
       ? projects
-      : projects.filter((project) => project.category === activeFilter)
+      : projects.filter((project) => project.category.includes(activeFilter))
 
   return (
     <div className="px-6 py-10 text-white">
@@ -85,7 +98,7 @@ export default function PortfolioPage() {
               rel="noopener noreferrer"
               className="block rounded-xl overflow-hidden shadow-lg"
             >
-              <div className="relative w-full h-44 "> {/* 你可以指定高度 */}
+              <div className="relative w-full h-44">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -104,7 +117,21 @@ export default function PortfolioPage() {
             >
               {project.title}
             </a>
-            <p className="text-sm text-gray-400">{project.category}</p>
+
+            {/* 分类 */}
+            <p className="text-sm text-gray-400">{project.category.join(', ')}</p>
+
+            {/* ✅ 技术栈展示 */}
+            <div className="flex flex-wrap gap-2">
+              {project.techStack?.map((tech) => (
+                <span
+                  key={tech}
+                  className="bg-gray-700 text-xs px-2 py-1 rounded-full text-gray-200"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
         ))}
       </div>
