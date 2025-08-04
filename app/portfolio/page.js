@@ -20,7 +20,7 @@ const projects = [
     image: '/portfolio/chatbot.png',
     projectLink: 'https://chatbot-mobile-sigma.vercel.app/',
     githubLink: 'https://github.com/chenxi-debugger/chatbot-mobile',
-    techStack: ['React Native', 'Expo', 'OpenAI', 'Zustand']
+    techStack: ['React Native', 'Expo', 'OpenAI', 'Zustand', 'firebase']
   },
   {
     title: 'Covilla',
