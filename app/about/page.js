@@ -2,7 +2,7 @@
 
 import AboutIntro from '../../components/AboutIntro'
 import Services from '../../components/Services'
-import Testimonials from '../../components/Testimonials'
+// import Testimonials from '../../components/Testimonials'
 
 export default function AboutPage() {
   return (
@@ -10,7 +10,7 @@ export default function AboutPage() {
       <div className="w-full flex flex-col gap-8">
         <AboutIntro />
         <Services />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </div>
     </div>
   )

@@ -6,13 +6,10 @@ export default function AboutIntro() {
         <div className="h-1 w-8 bg-cyan-400 mt-2 rounded"></div>
         </h1>
         <p className="text-lg text-gray-300 mb-10">
-          I am Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-          I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          I am a motivated and detail-oriented Software Engineer from California, United State, with with hands-on experience in full-stack web development, modern JavaScript frameworks, and backend technologies, and more to contribute effectively to a dynamic development team.
         </p>
         <p className="text-lg text-gray-300">
-          My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I add personal touch to your product and make sure that it is eye-catching and easy to use.
-          My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+        Passionate about building scalable applications and exploring AI integrations such as RAG and embeddings. Actively seeking a junior or entry-level Software Engineer position where I can contribute to impactful projects and continue learning.
         </p>
       </div>
     )

@@ -1,10 +1,14 @@
-import { FaCode, FaPalette, FaMobileAlt, FaCamera } from 'react-icons/fa'
-
+import { FaCode, FaPalette, FaMobileAlt, FaRobot, FaServer, FaTools, FaDatabase, FaLaptopCode } from 'react-icons/fa'
 const services = [
   { icon: <FaPalette />, title: 'Web Design', desc: 'The most modern and high-quality design made at a professional level.' },
   { icon: <FaCode />, title: 'Web Development', desc: 'High-quality development of sites at the professional level.' },
   { icon: <FaMobileAlt />, title: 'Mobile Apps', desc: 'Professional development of applications for iOS and Android.' },
-  { icon: <FaCamera />, title: 'Photography', desc: 'I make high-quality photos of any category at a professional level.' },
+  { icon: <FaRobot />, title: 'AI Integration', desc: 'Implement intelligent features using modern AI APIs like OpenAI and embeddings.' },
+  { icon: <FaServer />, title: 'Backend Development', desc: 'Robust and scalable backend services with Node.js, Express, and databases.' },
+  { icon: <FaTools />, title: 'DevOps & Deployment', desc: 'Automated deployment pipelines and CI/CD with AWS and modern tools.' },
+  // { icon: <FaDatabase />, title: 'Database Design', desc: 'Efficient database schema design and query optimization with MongoDB and MySQL.' },
+  // { icon: <FaLaptopCode />, title: 'Fullstack Development', desc: 'End-to-end development with modern frontend and backend technologies.' }
+
 ]
 
 export default function Services() {
