@@ -4,51 +4,65 @@ import { FaBriefcase, FaGraduationCap } from 'react-icons/fa'
 
 const education = [
   {
-    title: 'University School Of The Arts',
-    years: '2007 — 2008',
+    title: 'Personal Development & Career Transition',
+    years: '2021 — Present',
     description:
-      'Nemo enim ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
+      "Strategic career pivot from law to software development. Intensive self-directed learning in full-stack web technologies. Developed proficiency in modern JavaScript frameworks and backend systems",
   },
   {
-    title: 'New York Academy Of Art',
-    years: '2006 — 2007',
+    title: 'UC Berkeley School of Law',
+    years: '2018 — 2019',
     description:
-      'Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.',
+      "Master of Laws (LL.M.) degree with excellent academic standing. Strengthened analytical skills and cross-cultural competency in a diverse, rigorous academic environment.",
   },
   {
-    title: 'High School Of Art And Design',
-    years: '2002 — 2004',
+    title: 'Beijing University of Aeronautics and Astronautics',
+    years: '2016 — 2021',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.',
+    "Pursued Ph.D. in Law with advanced coursework and research in legal theory. Made strategic decision to pivot career direction due to changing personal and professional priorities during the global pandemic.",
+  },
+  {
+    title: 'Beijing University of Aeronautics and Astronautics',
+    years: '2014 — 2016',
+    description:
+      "Pursued Master's degree in Law, maintaining highest academic standing with first place ranking in the program. Developed advanced research and analytical skills in a competitive academic environment.",
+  },
+  {
+    title: 'Minzu University of China',
+    years: '2010 — 2014',
+    description:
+      "Bachelor's degrees in Law and English. Valedictorian with highest program GPA, awarded annual first-class scholarships and two National Scholarships.",
   },
 ]
 
 const experience = [
   {
-    title: 'Creative Director',
-    years: '2015 — Present',
+    title: 'Full-Stack Developer Trainee',
+    years: '2025 — Present',
     description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quvas molestias exceptur.',
+      'Completed intensive full-stack development program covering HTML, CSS, JavaScript, React, Node.js, Python, MongoDB, AWS, and AI/ML integration. Built multiple projects including AI-powered applications using OpenAI API, implemented CI/CD pipelines, and deployed scalable web solutions.',
   },
   {
-    title: 'Art Director',
-    years: '2013 — 2015',
+    title: 'Civil Code Research Contributor',
+    years: '2016 — 2018',
     description:
-      'Nemo enim ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quvas molestias exceptur.',
+      "Participated in drafting judicial interpretations for China\'s landmark Civil Code legislation under senior academic supervision. Conducted comprehensive legal research and contributed to authoritative legal publications, showcasing meticulous research skills and ability to work on complex, high-impact projects.",
   },
   {
-    title: 'Web Designer',
-    years: '2010 — 2013',
+    title: 'Pro Bono Legal Aid Volunteer',
+    years: '2011 — 2017',
     description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quvas molestias exceptur.',
+      'Pro bono legal aid volunteer providing free legal services to underserved communities including low-income and disabled individuals. Demonstrated strong research abilities, client advocacy skills, and commitment to social impact through consistent 6-year service.',
   },
 ]
 
 const skills = [
-  { name: 'Web Design', percent: 80 },
-  { name: 'Graphic Design', percent: 70 },
-  { name: 'Branding', percent: 90 },
-  { name: 'WordPress', percent: 50 },
+  { name: 'JavaScript/TypeScript', percent: 75 },
+  { name: 'React/Frontend', percent: 80 },
+  { name: 'Node.js/Backend', percent: 70 },
+  { name: 'MongoDB/Database', percent: 65 },
+  { name: 'HTML/CSS', percent: 85 },
+  { name: 'AI Integration', percent: 60 },
 ]
 
 export default function ResumePage() {
