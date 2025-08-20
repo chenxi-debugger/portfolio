@@ -1,14 +1,40 @@
 import { FaCode, FaPalette, FaMobileAlt, FaRobot, FaServer, FaTools, FaDatabase, FaLaptopCode } from 'react-icons/fa'
 const services = [
-  { icon: <FaPalette />, title: 'Web Design', desc: 'The most modern and high-quality design made at a professional level.' },
-  { icon: <FaCode />, title: 'Web Development', desc: 'High-quality development of sites at the professional level.' },
-  // { icon: <FaMobileAlt />, title: 'Mobile Apps', desc: 'Professional development of applications for iOS and Android.' },
-  { icon: <FaRobot />, title: 'AI Integration', desc: 'Implement intelligent features using modern AI APIs like OpenAI and embeddings.' },
-  { icon: <FaServer />, title: 'Backend Development', desc: 'Robust and scalable backend services with Node.js, Express, and databases.' },
-  { icon: <FaTools />, title: 'DevOps & Deployment', desc: 'Automated deployment pipelines and CI/CD with AWS and modern tools.' },
-  // { icon: <FaDatabase />, title: 'Database Design', desc: 'Efficient database schema design and query optimization with MongoDB and MySQL.' },
-  { icon: <FaLaptopCode />, title: 'Fullstack Development', desc: 'End-to-end development with modern frontend and backend technologies.' }
-
+  {
+    icon: <FaLaptopCode />,
+    title: 'Full‑Stack Development',
+    desc: 'End‑to‑end apps with React, Node.js/Express, and TypeScript/JavaScript.'
+  },
+  {
+    icon: <FaCode />,
+    title: 'Frontend Engineering',
+    desc: 'Accessible, responsive UI with React, Redux, and Bootstrap.'
+  },
+  {
+    icon: <FaServer />,
+    title: 'Backend & APIs',
+    desc: 'RESTful services, authentication, file handling, and performance tuning with Node.js/Express.'
+  },
+  {
+    icon: <FaDatabase />,
+    title: 'Databases & Data Modeling',
+    desc: 'MongoDB, MySQL, PostgreSQL, SQLite — schema design, indexing, and query optimization.'
+  },
+  {
+    icon: <FaTools />,
+    title: 'Cloud & DevOps',
+    desc: 'AWS deployments, Git/GitHub Actions CI/CD, and Linux/macOS environments.'
+  },
+  {
+    icon: <FaRobot />,
+    title: 'AI Integration',
+    desc: 'Add intelligent features using OpenAI APIs, embeddings, and RAG workflows.'
+  },
+  // {
+  //   icon: <FaPalette />,
+  //   title: 'Web Design',
+  //   desc: 'Component‑driven layouts and clean design systems built with React & Bootstrap.'
+  // }
 ]
 
 export default function Services() {

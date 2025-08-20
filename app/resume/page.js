@@ -37,10 +37,10 @@ const education = [
 
 const experience = [
   {
-    title: 'Full-Stack Developer Trainee',
-    years: '2025 — Present',
+    title: 'Software Engineer Intern',
+    years: 'Apr. 2024 — Aug. 2024',
     description:
-      'Completed intensive full-stack development program covering HTML, CSS, JavaScript, React, Node.js, Python, MongoDB, AWS, and AI/ML integration. Built multiple projects including AI-powered applications using OpenAI API, implemented CI/CD pipelines, and deployed scalable web solutions.',
+      "Developed an automated testing framework for an E-commerce website using Java with Selenium WebDriver to ensuring the accuracy and reliability of the website. Implemented MySQL to interact with the users’ database, executing queries to validate data integrity and perform data-driven testing, resulting in a significant 20% improvement in data processing speed. Used MyBatis to streamline the mapping between Java objects and SQL databases, enhancing database operations and data management.",
   },
   {
     title: 'Civil Code Research Contributor',
