@@ -30,11 +30,11 @@ const services = [
     title: 'AI Integration',
     desc: 'Add intelligent features using OpenAI APIs, embeddings, and RAG workflows.'
   },
-  // {
-  //   icon: <FaPalette />,
-  //   title: 'Web Design',
-  //   desc: 'Component‑driven layouts and clean design systems built with React & Bootstrap.'
-  // }
+   {
+     icon: <FaPalette />,
+     title: 'Web Design',
+     desc: 'Component‑driven layouts and clean design systems built with React & Bootstrap.'
+   }
 ]
 
 export default function Services() {
