@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^15.5.27",
     "nodemailer": "^7.0.5",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "react-icons": "^5.5.0",
     "resend": "^4.7.0"
   },
