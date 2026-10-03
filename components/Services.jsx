@@ -1,5 +1,10 @@
-import { FaCode, FaPalette, FaMobileAlt, FaRobot, FaServer, FaTools, FaDatabase, FaLaptopCode } from 'react-icons/fa'
+import { FaBrain, FaCode, FaPalette, FaMobileAlt, FaRobot, FaServer, FaTools, FaDatabase, FaLaptopCode } from 'react-icons/fa'
 const services = [
+ {
+    icon: <FaBrain />,
+    title: 'Machine Learning',
+    desc: 'Model comparison and tuning with scikit-learn and LightGBM, feature engineering, imbalanced-data handling, and MLflow experiment tracking.'
+  },
   {
     icon: <FaLaptopCode />,
     title: 'Full‑Stack Development',
@@ -28,7 +33,7 @@ const services = [
   {
     icon: <FaRobot />,
     title: 'AI Integration',
-    desc: 'Add intelligent features using OpenAI APIs, embeddings, and RAG workflows.'
+    desc: 'Serve ML models through FastAPI and Flask, and add LLM features with OpenAI APIs, embeddings, and RAG workflows.'
   },
    {
      icon: <FaPalette />,

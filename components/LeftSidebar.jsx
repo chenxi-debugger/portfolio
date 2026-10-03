@@ -46,7 +46,7 @@ export default function LeftSidebar() {
       </div>
 
       <h2 className="text-center text-xl font-bold mt-10">Chenxi Zhuang</h2>
-      <p className="text-center text-base text-gray-400 mt-6">Web developer</p>
+      <p className="text-center text-base text-gray-400 mt-6">AI Full-Stack Engineer</p>
 
       {/* InfoItem：仅在 lg 以上显示 */}
       <div className="mt-12 space-y-12 hidden xl:block ">

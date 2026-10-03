@@ -7,7 +7,7 @@ const education = [
     title: 'Personal Development & Career Transition',
     years: '2021 — Present',
     description:
-      "Strategic career pivot from law to software development. Intensive self-directed learning in full-stack web technologies. Developed proficiency in modern JavaScript frameworks and backend systems",
+      "Career pivot from law to software engineering. Self-directed full-stack web development (React, Node.js), followed by a structured, instructor-led ML/AI program covering Python data analysis, classical machine learning, and modern AI/NLP. Built end-to-end ML projects with model comparison, experiment tracking, and API serving.",
   },
   {
     title: 'UC Berkeley School of Law',
@@ -37,12 +37,6 @@ const education = [
 
 const experience = [
   {
-    title: 'AI Software Engineer',
-    years: 'Mar. 2024 — Present',
-    description:
-      "Created systematic code review processes to identify and resolve quality issues in AI-generated code, reviewing 500+ code samples weekly and focusing on performance optimization. Designed PostgreSQL database with connection pooling, indexing strategies, Redis caching, database sharding to store and serve stock data efficiently, supporting 1000+ concurrent requests. Ensured daily data updates with cron jobs, async processing, Apache Airflow, optimized backend access for real-time chatbot interactions with <100ms response time. Implemented CI/CD pipeline with Jenkins, automated testing using pytest, SonarQube code quality, maintaining 95%+ code coverage and 99.9% uptime. Developed an automated testing framework for an E-commerce website using Java with Selenium WebDriver to ensuring the accuracy and reliability of the website. Implemented MySQL to interact with the users’ database, executing queries to validate data integrity and perform data-driven testing, resulting in a significant 20% improvement in data processing speed. Used MyBatis to streamline the mapping between Java objects and SQL databases, enhancing database operations and data management.",
-  },
-  {
     title: 'Civil Code Research Contributor',
     years: '2016 — 2018',
     description:
@@ -57,6 +51,8 @@ const experience = [
 ]
 
 const skills = [
+  { name: 'Python/Data (pandas, NumPy)', percent: 70 },
+  { name: 'Machine Learning (scikit-learn, LightGBM)', percent: 60 },
   { name: 'JavaScript/TypeScript', percent: 75 },
   { name: 'React/Frontend', percent: 80 },
   { name: 'Node.js/Backend', percent: 70 },

@@ -3,9 +3,25 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
-const filters = ['All', 'Web development', 'AI & ML', 'App development']
+const filters = ['All', 'Web development', 'AI & ML']
 
 const projects = [
+  {
+    title: 'NYC Real Estate Price Predictor',
+    category: ['AI & ML'],
+    image: '/portfolio/nyc_real_estate.png',
+    projectLink: 'https://github.com/chenxi-debugger/nyc-real-estate-analytics',
+    githubLink: 'https://github.com/chenxi-debugger/nyc-real-estate-analytics',
+    techStack: ['Python', 'Flask', 'LightGBM', 'scikit-learn', 'Plotly']
+  },
+  {
+    title: 'Short-Video Like Prediction',
+    category: ['AI & ML'],
+    image: '/portfolio/cognitive_shorts.png',
+    projectLink: 'https://github.com/chenxi-debugger/ml-recommendation-pipeline',
+    githubLink: 'https://github.com/chenxi-debugger/ml-recommendation-pipeline',
+    techStack: ['Python', 'FastAPI', 'LightGBM', 'Streamlit', 'MLflow']
+  },
   {
     title: 'Weatherstack',
     category: ['Web development'],
@@ -13,14 +29,6 @@ const projects = [
     projectLink: 'https://weatherstackwebsite.vercel.app/',
     githubLink: 'https://github.com/chenxi-debugger/weatherstack',
     techStack: ['JavaScript', 'CSS', 'HTML']
-  },
-  {
-    title: 'Chatbot-mobile',
-    category: ['App development', 'AI & ML'],
-    image: '/portfolio/chatbot.png',
-    projectLink: 'https://chatbot-mobile-sigma.vercel.app/',
-    githubLink: 'https://github.com/chenxi-debugger/chatbot-mobile',
-    techStack: ['React Native', 'Expo', 'OpenAI', 'Zustand', 'firebase']
   },
   {
     title: 'Covilla',
