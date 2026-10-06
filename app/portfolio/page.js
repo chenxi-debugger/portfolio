@@ -10,7 +10,7 @@ const projects = [
     title: 'NYC Real Estate Price Predictor',
     category: ['AI & ML'],
     image: '/portfolio/nyc_real_estate.png',
-    projectLink: 'https://github.com/chenxi-debugger/nyc-real-estate-analytics',
+    projectLink: 'https://nyc-real-estate-analytics.onrender.com',
     githubLink: 'https://github.com/chenxi-debugger/nyc-real-estate-analytics',
     techStack: ['Python', 'Flask', 'LightGBM', 'scikit-learn', 'Plotly']
   },
