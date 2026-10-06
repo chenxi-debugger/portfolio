@@ -18,7 +18,7 @@ const projects = [
     title: 'Short-Video Like Prediction',
     category: ['AI & ML'],
     image: '/portfolio/cognitive_shorts.png',
-    projectLink: 'https://github.com/chenxi-debugger/ml-recommendation-pipeline',
+    projectLink: 'https://cognitive-shorts-app.onrender.com/',
     githubLink: 'https://github.com/chenxi-debugger/ml-recommendation-pipeline',
     techStack: ['Python', 'FastAPI', 'LightGBM', 'Streamlit', 'MLflow']
   },
